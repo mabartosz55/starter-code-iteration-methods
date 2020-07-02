@@ -16,7 +16,7 @@ function printKata (kataNumber, object) {
     main.append(detailsElement)
     //
     const summaryElement = document.createElement('summary')
-    summaryElement.append("KATA " + kataNumber)
+    summaryElement.append("Kata " + kataNumber)
     detailsElement.append(summaryElement)
     //
     // http://mdn.io/json.stringify
